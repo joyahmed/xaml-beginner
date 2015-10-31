@@ -20,8 +20,8 @@
         
         <TextBlock Text="Restaurant Manager" Foreground="White" Grid.Row="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Bottom" />
         <TextBlock Text="Internal Test Version" Foreground="White" Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
-        <TextBlock Text="**Go To Orders View**" Foreground="White" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" />
-        <TextBlock Text="**Submit Order**" Foreground="White" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Button x:Name="navigateToExpeditePage" Content="**Go To Orders View**" Foreground="White" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Click="ExpeditePage_Click" />
+        <Button x:Name="navigateToOrderPage" Content="**Submit Order**" Foreground="White" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Click="navigateToOrderPage_Click" />
         
     </Grid>
 </Page>
