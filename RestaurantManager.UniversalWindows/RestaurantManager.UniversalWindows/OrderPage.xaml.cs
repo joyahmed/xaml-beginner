@@ -31,5 +31,10 @@ namespace RestaurantManager.UniversalWindows
         {
             this.Frame.Navigate(typeof(MainPage), null);
         }
+
+        private void addOrders_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

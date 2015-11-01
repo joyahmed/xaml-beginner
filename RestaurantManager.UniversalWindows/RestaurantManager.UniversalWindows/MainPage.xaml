@@ -6,7 +6,14 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-
+    <!--<Page.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontSize" Value="32" />
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="FontSize" Value="32" />
+        </Style>
+    </Page.Resources>-->
     <Grid Background="Black">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="0.5*"/>
